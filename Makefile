@@ -9,6 +9,5 @@ fresh: clean
 clean:
 	vagrant destroy -f
 	rm -rf .vagrant
-	rm -rf etc-dnsmasq.d
-	rm -rf etc-pihole
+
 	
